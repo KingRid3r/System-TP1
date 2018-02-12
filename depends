@@ -1,0 +1,6 @@
+cli_req.o: cli_req.cpp cli_req.hpp
+serv_req.o: serv_req.cpp serv_req.hpp
+sockcli.o: sockcli.cpp cli_req.hpp
+sockinte.o: sockinte.cpp cli_req.hpp serv_req.hpp
+sockserv.o: sockserv.cpp serv_req.hpp
+sockservWeb.o: sockservWeb.cpp

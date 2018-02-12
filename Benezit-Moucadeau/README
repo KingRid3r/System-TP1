@@ -1,0 +1,4 @@
+- Pour compiler utilisé la commande Make
+- Lancer le serveur à l'aide de "./sockserv"
+- Lancer le serveur intérmédiaire à l'aide de "./sockinte <ip> <port(2001 par default)>"
+- Lancer le client à l'aide de "./sockcli <ip> <port(2002 par default)>
